@@ -1,0 +1,29 @@
+#operations {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+.center {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
+}
+button {
+    height: 50px;
+    width: 100px;
+    font-size: 15px;
+}
+#display {
+    font-size: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: flex-end;
+    border: solid thin;
+    width: 400px;
+    border-radius: 3px;
+    background-color: rgb(219, 219, 243);
+}
